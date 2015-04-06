@@ -1,0 +1,12 @@
+{% extends 'time_tracker/base.html' %}
+{% block content %}
+    {% for work in work_done %}
+        <div class="row work-done">
+            <p>
+                <span class="minutes">{{ work.minutes }}</span> minutes on 
+                {{ work.project }}
+            </p>
+            <p class="description">{{ work.description }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

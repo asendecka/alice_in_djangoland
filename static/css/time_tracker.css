@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12pt;
+}
+
+h1, h1, h2, h4 {
+    font-family: "Satisfy"; 
+}
+
+.page-header a, .page-header a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 30px 0 25px;
+    border-bottom: 1px solid #eee;
+    padding-left: 37px;
+}
+
+label {
+    font-weight: 500;
+    width: 100%;
+}
+
+.description {
+    color: grey;
+}
+
+.work-done {
+    margin-bottom: 10px;
+}
+
+.work-done p {
+    margin-bottom: 5px;
+}
+
+.minutes {
+    font-size: 14pt;
+    font-weight: bold;
+}
